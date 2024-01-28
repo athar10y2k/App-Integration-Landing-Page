@@ -1,0 +1,242 @@
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 400;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricRegular.woff') format('woff');
+}
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 250;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricThin.woff') format('woff');
+}
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 265;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 300;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 500;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricMedium.woff') format('woff');
+}
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 600;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricSemiBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 700;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 800;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 900;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricBlack.woff') format('woff');
+}
+@font-face {
+    font-family: 'URW Geometric';
+    font-style: normal;
+    font-weight: 900;
+    src: local('URW Geometric'), url('https://fonts.cdnfonts.com/s/62631/URWGeometricHeavy.woff') format('woff');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'URW Geometric', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    min-height: 920px;
+    /* background: rgb(255,223,223);
+    background: linear-gradient(90deg, rgba(255,223,223,1) 0%, rgba(225,244,255,1) 100%); */
+    background: rgb(255,239,239);
+background: linear-gradient(90deg, rgba(255,239,239,1) 0%, rgba(227,245,255,1) 100%);
+overflow: hidden; 
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 25px;
+}
+
+.bg-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poly-red{
+    position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+
+.poly-blue{
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: -99999;
+}
+
+.left{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    padding-top: 180px;
+}
+
+.right{
+    width: 45vw;
+    display: flex;
+    flex:end;
+    justify-content: end;
+    flex-direction: row;
+    margin-right: 100px;
+}
+.col-1,.col-2,.col-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.little-image{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.cs{
+font-family: URW Geometric;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0.16em;
+text-align: left;
+text-transform: uppercase;
+}
+
+.main-title{
+    font-family: URW Geometric;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.input{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.input input{
+    width: 300px;
+    height: 60px;
+    border-radius: 12px;
+    padding: 10px 0px 10px 30px;
+    border: none;
+}
+
+.input input::placeholder{
+    color: #969696;
+    opacity: .8;
+    font-family: 'URW Geometric', sans-serif;
+}
+
+.input button{
+    width: 150px;
+    height: 60px;
+    border-radius: 12px;
+    margin-left: 30px;
+    color: white;
+    background-color: #282632;
+    border-style: none;
+    cursor: pointer;
+    font-family: 'URW Geometric', sans-serif;
+}
+
+.dont-worry{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #282632;
+    margin-top: 30px;
+}
+
+.social-text{
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #7B7B7B;
+    margin-top: 300px;
+}
+
+.social-img{
+    margin-top: 10px;
+}
+
+.col-2{
+    margin-top: 200px;
+}
+
+.social-img img{
+    margin-right: 15px;
+}
+
+.c1i1{
+    margin-top: -350px;
+}
+
+.c2i1{
+    margin-top: -350px;
+}
+
+.c2i2{
+    margin-top: 80px;
+}
+
+.c2i3{
+    margin-top: 40px;
+    margin-right: -80px;
+}
+.c3i1{
+    margin-top: -50px;
+}
+
+.c3i2{
+    margin-top: -50px;
+}
+
+.c3i5{
+    margin-top: -30px;
+}
