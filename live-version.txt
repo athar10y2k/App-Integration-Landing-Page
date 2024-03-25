@@ -1,0 +1,6 @@
+//figma design
+https://www.figma.com/file/jpnSebXXoIup9t5XG0iASx/100-days-Daily-UI-challenge-23'?type=design&node-id=426%3A2186&t=O9lS2DaSgnhybZ61-1
+
+
+//live version of this page
+https://athar-app-integration-landing-page.netlify.app/
